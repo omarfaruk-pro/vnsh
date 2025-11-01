@@ -1,0 +1,62 @@
+@import "tailwindcss";
+
+:root {
+  --background: #fff;
+  --foreground: rgb(18, 18, 18);
+}
+
+@theme {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-red: #176326;
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+  --font-urwdin: var(--font-urwdin);
+  --font-stratum: var(--font-stratum);
+  --font-stratumReg: var(--font-stratumReg);
+}
+
+body {
+  font-family: var(--font-urwdin);
+  color: var(--foreground);
+  background-color: var(--background);
+  font-size: 1.25rem;
+  line-height: 1.8;
+  letter-spacing: 0.6px;
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--font-stratum);
+}
+
+a,
+button {
+  cursor: pointer;
+}
+
+.container {
+  @apply max-w-385 mx-auto px-5;
+}
+
+.btn-primary {
+  @apply min-h-11.25 inline-flex items-center justify-center px-7.5 bg-red text-white text-base rounded-md hover:-translate-y-0.75 ease-linear duration-150;
+}
+
+.floating-input {
+  @apply w-full border border-gray-400 rounded-sm pt-4.25 px-3.75 pb-1.25 leading-none text-base text-gray-900 placeholder-transparent focus:outline-none focus:border-gray-600
+}
+
+
+.floating-label {
+  @apply absolute left-3 text-gray-500 transition-all duration-200 top-1/2 transform -translate-y-1/2 leading-none
+}
+
+.floating-textarea-label {
+  @apply absolute left-3 text-gray-500 transition-all duration-200 top-3 transform leading-none
+}
+
+.floating-input:focus+label, .floating-input:valid+label {
+  @apply top-1 left-3.75 text-xs text-gray-700 translate-y-0 transform ease-in-out duration-150
+}
