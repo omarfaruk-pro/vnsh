@@ -64,7 +64,7 @@ const ProductCard = () => {
           alt={product.title}
           width={400}
           height={300}
-          className="w-full h-[200px] object-contain group-hover:scale-105 transition duration-300 ease-in-out"
+          className="w-full h-60 lg:h-50 object-cover lg:object-contain group-hover:scale-105 transition duration-300 ease-in-out"
         />
         {product.badge === "new" && (
           <span className="absolute top-2 left-2 bg-[#e87712] text-white text-xs  px-3 py-0.75 rounded-full">

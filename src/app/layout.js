@@ -89,7 +89,7 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
+    <html lang="en" className="lg:text-[13px] 2xl:text-[16px]">
 
       <body
         className={` ${urwdin.variable} ${stratum.variable} ${stratumReg.variable} antialiased`}

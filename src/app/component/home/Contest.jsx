@@ -7,7 +7,7 @@ export default function Contest() {
             <section className='pt-12 pb-9'>
                 <div className="container">
                     <h2 className='text-[2.5rem] leading-[1.3] uppercase'>OUR CONTEST WINNERS</h2>
-                    <div className="grid grid-cols-2 gap-2 mt-7.5">
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-2 mt-7.5">
                         <div className="w-full max-w-full">
                             <video
                                 playsInline
@@ -53,7 +53,7 @@ export default function Contest() {
                             <h3 className='text-center py-6.25 bg-[rgba(18,18,18,.04)] rounded-b-md  text-lg'>VNSH TRUCK GIVEAWAY</h3>
                         </div>
                     </div>
-                    <div className="grid grid-cols-3 pt-12 pb-9">
+                    <div className="grid grid-cols-1 md:grid-cols-3 pt-12 pb-9">
                         <div className='text-center px-3.75'>
                             <Image width={163} height={163} alt="Money Back Guarantee" src="/images/money-back.avif" className='mx-auto'/>
                             <div className='py-6'>

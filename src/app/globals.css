@@ -37,7 +37,7 @@ button {
 }
 
 .container {
-  @apply max-w-385 mx-auto px-5;
+  @apply max-w-395 mx-auto px-6 md:px-10;
 }
 
 .btn-primary {

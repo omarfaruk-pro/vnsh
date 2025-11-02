@@ -9,7 +9,7 @@ const NavLink = ({ href, children }) => {
   return (
     <Link
       href={href}
-      className={`p-3 uppercase font-stratumReg transition text-foreground font-semibold hover:opacity-100 hover:underline hover:underline-offset-3 ${ isActive ? "opacity-100 underline underline-offset-3" : "opacity-75"
+      className={`px-6 py-4 lg:p-3 uppercase block font-stratumReg transition text-foreground font-semibold hover:opacity-100 lg:hover:underline lg:hover:underline-offset-3 ${ isActive ? "opacity-100 lg:underline lg:underline-offset-3 bg-[#1212120a] lg:bg-transparent" : "lg:opacity-75"
       }`}
     >
       {children}
