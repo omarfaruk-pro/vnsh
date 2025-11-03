@@ -11,21 +11,21 @@ export default function page() {
 
                         <VidalyticsPlayer/>
 
-                        <div className='mb-9'>
+                        <div className='mb-9' data-aos="fade-up">
                             <h2 className='text-2xl mb-5 uppercase'>Who Is VNSH?</h2>
                             <div className='space-y-5 opacity-75'>
                                 <p>Millions upon millions of Americans own and carry guns for self-protection. VNSH brands builds the most comfortable and most versatile holsters on the market so those wishing to carry daily never have a reason not to carry.</p>
                                 <p>Additionally, VNSH provides supplemental products that allow for the daily carry of other self-defense tools; as well as products that ensure VNSH customers can confidently use their weapons and to save their life without engaging others.</p>
                             </div>
                         </div>
-                        <div className='mb-9'>
+                        <div className='mb-9' data-aos="fade-up">
                             <h2 className='text-2xl mb-5 uppercase'>Who Do We Serve?</h2>
                             <div className='space-y-5 opacity-75'>
                                 <p>We serve every American who wants to prepare for the worst <em>without spending an arm and a leg</em> to do it.</p>
                                 <p>VNSH is for Americans who see the direction our country is headed… who <em>know it’s time</em> to get their families ready… but don’t want to waste any time or money to do it.</p>
                             </div>
                         </div>
-                        <div className='mb-9'>
+                        <div className='mb-9' data-aos="fade-up">
                             <h2 className='text-2xl mb-5 uppercase'>Got More Questions?</h2>
                             <div className='space-y-5 opacity-75'>
                                 <p>We’re always available to answer any questions or concerns you may have.</p>

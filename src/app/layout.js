@@ -3,6 +3,7 @@ import localFont from "next/font/local";
 import "./globals.css";
 import Footer from "./component/Footer";
 import Header from "./component/Header";
+import AOSInitializer from "./component/AOSInitializer";
 
 const urwdin = localFont({
   src: [
@@ -94,6 +95,7 @@ export default function RootLayout({ children }) {
       <body
         className={` ${urwdin.variable} ${stratum.variable} ${stratumReg.variable} antialiased`}
       >
+        <AOSInitializer />
         <Header />
         <main>
           {children}

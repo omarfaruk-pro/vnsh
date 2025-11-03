@@ -24,11 +24,11 @@ export default function TestimonialSec() {
         <>
             <section className='pt-12 pb-9'>
                 <div className="container">
-                    <h2 className='text-[2.5rem] leading-[1.3] uppercase'>See Why They Say &#34;This Is The Best Holster I&#39;ve Ever Owned&#34;</h2>
+                    <h2 data-aos="fade-up" className='text-[2.5rem] leading-[1.3] uppercase'>See Why They Say &#34;This Is The Best Holster I&#39;ve Ever Owned&#34;</h2>
                     <div className="grid grid-cols-1 lg:grid-cols-3 mt-7.5 gap-16 lg:gap-0">
                         {
                             testimonial.map((item, index) => (
-                                <div key={index} className='text-center px-3.75'>
+                                <div key={index} className='text-center px-3.75' data-aos="fade-up" data-aos-delay={((index + 1) * 150) + 300}>
                                     <div className='mb-6'>
                                         <Image src={item.image} alt={item.author} width={170} height={170} className='w-40 h-40 rounded-full object-cover mx-auto' />
                                     </div>

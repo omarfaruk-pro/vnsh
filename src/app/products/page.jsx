@@ -39,7 +39,9 @@ export default function Products() {
                         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-2 mt-5">
                             {
                                 [...Array(12)].map((_, i) => (
-                                    <ProductCard key={i} />
+                                    <div key={i} data-aos="fade-up" data-aos-duration="800" data-aos-delay={((i + 1) * 50) } >
+                                        <ProductCard />
+                                    </div>
                                 ))
                             }
                         </div>

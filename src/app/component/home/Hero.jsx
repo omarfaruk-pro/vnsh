@@ -14,7 +14,7 @@ export default function Hero() {
                     className="object-cover object-center -z-10"
                 />
 
-                <div className="text-center z-1 px-9 py-10">
+                <div className="text-center z-1 px-9 py-10" data-aos="fade-up">
                     <h1 className="text-[3.25rem] font-bold leading-[1.3] uppercase">THE VNSH HOLSTER</h1>
                     <p className="text-lg md:text-xl opacity-75 mt-2.5">
                         So Comfy It&#39;s Like It Ain&#39;t Even There

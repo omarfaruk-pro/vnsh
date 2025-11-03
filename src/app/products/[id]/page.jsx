@@ -8,7 +8,7 @@ export default function ProductDetails() {
         <>
             <Details />
 
-            <section className='pt-10 md:pt-20 pb-12 md:pb-25'>
+            <section className='pt-10 md:pt-20 pb-12 md:pb-25' data-aos="fade-up" data-aos-delay="200">
                 <div className="container">
                     <div className="lg:flex space-y-10">
                         <div className='lg:px-17.5 lg:py-15 lg:w-2/3'>
@@ -26,7 +26,7 @@ export default function ProductDetails() {
                 </div>
             </section>
 
-            <section className='pt-10 md:pt-20 pb-12 md:pb-25'>
+            <section className='pt-10 md:pt-20 pb-12 md:pb-25' data-aos="fade-up" data-aos-delay="200">
                 <div className="container">
                     <div className="flex flex-col-reverse lg:flex-row space-y-10">
                         <div className='lg:w-1/3'>
@@ -43,7 +43,7 @@ export default function ProductDetails() {
                 </div>
             </section>
 
-            <section className='pt-10 md:pt-20 pb-12 md:pb-25'>
+            <section className='pt-10 md:pt-20 pb-12 md:pb-25' data-aos="fade-up" data-aos-delay="200">
                 <div className="container">
                     <div className="lg:flex space-y-10">
                         <div className='lg:px-17.5 lg:py-15 lg:w-2/3'>
@@ -64,7 +64,7 @@ export default function ProductDetails() {
                 </div>
             </section>
 
-            <section className='pt-10 md:pt-20 pb-12 md:pb-25 text-center'>
+            <section className='pt-10 md:pt-20 pb-12 md:pb-25 text-center' data-aos="fade-up" data-aos-delay="200">
                 <div className="container">
                     <h2 className="text-[2.5rem] leading-[1.3] uppercase">SPECS & FEATURES</h2>
                     <div className="grid grid-cols-1 gap-15 md:gap-0 md:grid-cols-2 mt-6">

@@ -14,7 +14,7 @@ export default function Contact() {
           priority
           className="object-cover object-center -z-10"
         />
-        <div className="text-center px-8 py-10 max-w-3xl bg-white rounded-md">
+        <div className="text-center px-8 py-10 max-w-3xl bg-white rounded-md" data-aos="fade-up">
           <h1 className="text-[2.5rem] text-black font-bold leading-[1.3] uppercase">
             How can we help?
           </h1>
@@ -27,7 +27,7 @@ export default function Contact() {
       <section className="pb-20">
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 sm:grid-cols-2 py-12 text-center gap-6">
-            <div>
+            <div data-aos="fade-up" data-aos-delay="200">
               <h3 className="text-lg font-medium">Email</h3>
               <a
                 className="mt-2.5 block text-gray-600 hover:text-gray-800"
@@ -36,7 +36,7 @@ export default function Contact() {
                 customercare@vnsh.com
               </a>
             </div>
-            <div>
+            <div data-aos="fade-up" data-aos-delay="300">
               <h3 className="text-lg font-medium">Phone</h3>
               <a
                 className="mt-2.5 block text-gray-600 hover:text-gray-800"
@@ -47,7 +47,7 @@ export default function Contact() {
             </div>
           </div>
 
-          <form className="py-9">
+          <form className="py-9" data-aos="fade-up" data-aos-delay="400">
             <div className="max-w-181.5 mx-auto space-y-5">
               <h2 className="text-[2.5rem] leading-[1.3] uppercase">
                 Have Questions?
